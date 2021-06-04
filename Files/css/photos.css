@@ -1,0 +1,48 @@
+.list {
+    position: relative;
+    width: 550px;
+    margin: 100px auto;
+    list-style: none;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.photo_link {
+    display: inline-block;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 26px;
+    letter-spacing: 3px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 494px;
+    margin: 7px 0;
+    line-height: 75px;
+    text-align: center;
+    border: solid var(--orange) 3px; 
+    
+    transition-duration: 0.4s;
+}
+
+.photo_link:hover {
+    color: black;
+    background-color: var(--orange);
+    transform: scale(1.05);
+}
+
+
+.photo {
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    margin-bottom: 50px;
+    transform-origin: top;
+    transition-duration: 0.5s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+

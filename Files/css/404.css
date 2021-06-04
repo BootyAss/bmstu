@@ -1,0 +1,38 @@
+:root {
+    --blue: #93d6ff;
+    --red: #e06354
+}
+
+body {
+    background-color: var(--blue);
+    margin: 0px;
+}
+
+.button {
+    margin: 50px 100px;
+        
+    font-family: Arial;
+    font-size: 16px;
+    padding: 16px 20px;
+    color: black;
+    
+    border-radius: 6px;
+    border: 3px solid var(--red);
+    background-color: white;
+}
+
+.button:hover {
+    transition-duration: 0.6s;
+       
+    border: 3px solid var(--blue);
+    background-color: var(--red);
+}
+
+.title {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--red);
+}

@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(27, 27, 27);
+}
+
+canvas {
+  margin: 0 auto;
+  display: block;
+  border: 2px green dashed;
+}
+
+h1 {
+  width: 275px;
+  hegith: 40px;
+  margin: 20px auto;
+  
+  text-align: center;
+  
+  font-family: Lucida Calligraphy;
+  font-size: 30px;
+  color: #edbe2f;
+}

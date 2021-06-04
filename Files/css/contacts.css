@@ -1,0 +1,19 @@
+.List {
+    position: relative;
+    width: auto;
+    text-align: center;
+    margin: 400px 0;
+    list-style: none;
+}
+
+.img {
+    margin: 0 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}

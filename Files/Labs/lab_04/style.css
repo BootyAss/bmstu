@@ -1,0 +1,17 @@
+body {
+  margin-top: 50px;
+  margin-left: 75px;
+  background: rgba(252, 196, 215, 0.79);
+
+}
+
+.title {
+  margin-left: 50px;
+  font-family: Arial;
+  color: dimgrey;
+}
+
+.title:hover {
+  transition-duration: 0.3s;
+  color: red;
+}

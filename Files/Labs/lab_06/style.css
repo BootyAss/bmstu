@@ -1,0 +1,44 @@
+body {
+  width: 800px;
+  margin: 100px auto;
+  background-color: rgb(28, 28, 28);
+}
+
+canvas {
+  display: block;
+  border: 5px dotted #edbe2f;
+  border-radius: 7.5%;
+}
+
+.header {
+  margin: 0 75px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  font-family: Lucida Calligraphy;
+  font-size: 30px;
+  color: #edbe2f;
+}
+
+
+.slider {
+  outline: none; 
+  -webkit-appearance: none;
+  appearance: none;
+  
+  width: 100px;
+  height: 16px;
+  background: #ffffff;
+  
+  text: 'hui1231';
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  
+  width: 75px;
+  height: 20px;
+  background: #edbe2f;
+  cursor: pointer;
+}
